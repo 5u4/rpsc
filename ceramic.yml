@@ -1,0 +1,23 @@
+app:
+    package: itchy.rpsc
+    name: rpsc
+    displayName: rpsc
+    author: Sen Hung Wong
+    version: '1.0'
+
+    plugins:
+        - arcade
+        #- nape
+        #- ui
+        #- elements
+
+    libs:
+        - random
+        - vector-math
+        #- somelib
+        #- somelib: someversion
+        #- somelib: git:https://github.com/somelibauthor/somelib.git
+
+    defines:
+        #- some_define
+        #- some_define: 'some value'
